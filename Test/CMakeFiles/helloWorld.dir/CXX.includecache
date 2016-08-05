@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gagandeep/hello/Hello/hello.h
+
+/home/gagandeep/hello/Test/test.cc
+iostream
+-
+../Hello/hello.h
+/home/gagandeep/hello/Hello/hello.h
+
